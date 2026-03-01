@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rd_observability"
+version = "0.1.0"
+description = "Library adding features for observability of the RD apps"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "ruff",
+]  # use locally with venv pip install -e .[dev]  OR   pip install -e .[dev,typecheck]
+typecheck = ["mypy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 140
+
+[tool.mypy]
+ignore_missing_imports = true  # i.e. not strict
+warn_return_any = true
+warn_unused_configs = true
+# strict = true
+# additionally Pyright (Pylance) type checking can be enabled in .vscode/settings "python.analysis.typeCheckingMode": "basic"  
+# Pyright setting options: "off | basic | strict"
