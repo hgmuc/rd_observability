@@ -11,7 +11,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["dataclasses>=0.8", "shapely>=2.0.0", "sqlite3>=3.46.0", 
                 "numpy>1.26.0", "pandas>=2.2.2", "geopandas>=1.0.1", "requests>=2.32.3",
-                "basic_helpers @ git+https://github.com/you/basic_helpers.git@v0.2.1"]  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
+                "shape2code @ git+https://github.com/hgmuc/shape2code.git@v0.1.0",
+                "basic_helpers @ git+https://github.com/hgmuc/basic_helpers.git@v0.2.1"]  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
 
 [project.optional-dependencies]
 dev = [
