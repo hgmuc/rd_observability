@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPS-Track-Analyse.NET 6.0.0.4" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<metadata>
+		<name>Pasing Bodenseestraße - München Westkreuz Aubinger Straße</name>
+		<desc><![CDATA[GPX Track: Pasing Bodenseestraße - München Westkreuz Aubinger Straße]]></desc>
+		<time>2025-07-13T11:38:21Z</time>
+		<bounds maxlat="48.148554" maxlon="11.446623" minlat="48.146077" minlon="11.445316"/>
+	</metadata>
+	<wpt lat="48.146077" lon="11.446623">
+		<ele>0</ele>
+		<name>Pasing Bodenseestraße</name>
+		<symbol>Waypoint</symbol>
+	</wpt>
+	<wpt lat="48.148554" lon="11.445400">
+		<ele>0</ele>
+		<name>München Westkreuz Aubinger Straße</name>
+		<symbol>Waypoint</symbol>
+	</wpt>
+	<trk>
+		<name>Pasing Bodenseestraße - München Westkreuz Aubinger Straße</name>
+		<desc><![CDATA[GPX Track: Pasing Bodenseestraße - München Westkreuz Aubinger Straße]]></desc>
+		<trkseg>
+			<trkpt lat="48.146077" lon="11.446623">
+				<ele>527</ele>
+				<time>2025-07-13T11:38:21Z</time>
+			</trkpt>
+			<trkpt lat="48.146139" lon="11.446590">
+				<ele>527</ele>
+				<time>2025-07-13T11:38:22Z</time>
+			</trkpt>
+			<trkpt lat="48.146515" lon="11.446491">
+				<ele>527</ele>
+				<time>2025-07-13T11:38:31Z</time>
+			</trkpt>
+			<trkpt lat="48.146838" lon="11.446360">
+				<ele>527</ele>
+				<time>2025-07-13T11:38:38Z</time>
+			</trkpt>
+			<trkpt lat="48.147014" lon="11.446305">
+				<ele>527</ele>
+				<time>2025-07-13T11:38:42Z</time>
+			</trkpt>
+			<trkpt lat="48.147077" lon="11.446241">
+				<ele>527</ele>
+				<time>2025-07-13T11:38:44Z</time>
+			</trkpt>
+			<trkpt lat="48.147313" lon="11.446206">
+				<ele>526</ele>
+				<time>2025-07-13T11:38:49Z</time>
+			</trkpt>
+			<trkpt lat="48.147428" lon="11.446187">
+				<ele>526</ele>
+				<time>2025-07-13T11:38:52Z</time>
+			</trkpt>
+			<trkpt lat="48.147542" lon="11.446166">
+				<ele>526</ele>
+				<time>2025-07-13T11:38:54Z</time>
+			</trkpt>
+			<trkpt lat="48.147660" lon="11.446133">
+				<ele>526</ele>
+				<time>2025-07-13T11:38:57Z</time>
+			</trkpt>
+			<trkpt lat="48.147765" lon="11.446089">
+				<ele>526</ele>
+				<time>2025-07-13T11:38:59Z</time>
+			</trkpt>
+			<trkpt lat="48.147895" lon="11.446012">
+				<ele>526</ele>
+				<time>2025-07-13T11:39:02Z</time>
+			</trkpt>
+			<trkpt lat="48.148011" lon="11.445928">
+				<ele>526</ele>
+				<time>2025-07-13T11:39:05Z</time>
+			</trkpt>
+			<trkpt lat="48.148165" lon="11.445783">
+				<ele>526</ele>
+				<time>2025-07-13T11:39:09Z</time>
+			</trkpt>
+			<trkpt lat="48.148297" lon="11.445620">
+				<ele>525</ele>
+				<time>2025-07-13T11:39:13Z</time>
+			</trkpt>
+			<trkpt lat="48.148389" lon="11.445485">
+				<ele>525</ele>
+				<time>2025-07-13T11:39:16Z</time>
+			</trkpt>
+			<trkpt lat="48.148408" lon="11.445453">
+				<ele>525</ele>
+				<time>2025-07-13T11:39:17Z</time>
+			</trkpt>
+			<trkpt lat="48.148492" lon="11.445316">
+				<ele>524</ele>
+				<time>2025-07-13T11:39:20Z</time>
+			</trkpt>
+			<trkpt lat="48.148554" lon="11.445400">
+				<ele>525</ele>
+				<time>2025-07-13T11:39:22Z</time>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

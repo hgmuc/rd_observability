@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="GPS-Track-Analyse.NET 6.0.0.4" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<metadata>
+		<name>Forstenrieder Park Neuhauser-Weg - Fürstenried Überführung Karl-Wieninger Weg</name>
+		<desc><![CDATA[GPX Track: Forstenrieder Park Neuhauser-Weg - Fürstenried Überführung Karl-Wieninger Weg]]></desc>
+		<time>2025-07-13T11:38:21Z</time>
+		<bounds maxlat="48.081866" maxlon="11.491413" minlat="48.070785" minlon="11.486543"/>
+	</metadata>
+	<wpt lat="48.070785" lon="11.488648">
+		<ele>0</ele>
+		<name>Forstenrieder Park Neuhauser-Weg</name>
+		<symbol>Waypoint</symbol>
+	</wpt>
+	<wpt lat="48.081865" lon="11.487189">
+		<ele>0</ele>
+		<name>Fürstenried Überführung Karl-Wieninger Weg</name>
+		<symbol>Waypoint</symbol>
+	</wpt>
+	<trk>
+		<name>Forstenrieder Park Neuhauser-Weg - Fürstenried Überführung Karl-Wieninger Weg</name>
+		<desc><![CDATA[GPX Track: Forstenrieder Park Neuhauser-Weg - Fürstenried Überführung Karl-Wieninger Weg]]></desc>
+		<trkseg>
+			<trkpt lat="48.070785" lon="11.488648">
+				<ele>573</ele>
+				<time>2025-07-13T11:38:21Z</time>
+			</trkpt>
+			<trkpt lat="48.071226" lon="11.488628">
+				<ele>572</ele>
+				<time>2025-07-13T11:38:30Z</time>
+			</trkpt>
+			<trkpt lat="48.072759" lon="11.488493">
+				<ele>570</ele>
+				<time>2025-07-13T11:39:05Z</time>
+			</trkpt>
+			<trkpt lat="48.074226" lon="11.488404">
+				<ele>569</ele>
+				<time>2025-07-13T11:39:37Z</time>
+			</trkpt>
+			<trkpt lat="48.074306" lon="11.488393">
+				<ele>569</ele>
+				<time>2025-07-13T11:39:39Z</time>
+			</trkpt>
+			<trkpt lat="48.074553" lon="11.488371">
+				<ele>569</ele>
+				<time>2025-07-13T11:39:45Z</time>
+			</trkpt>
+			<trkpt lat="48.074728" lon="11.488358">
+				<ele>569</ele>
+				<time>2025-07-13T11:39:48Z</time>
+			</trkpt>
+			<trkpt lat="48.074810" lon="11.488382">
+				<ele>569</ele>
+				<time>2025-07-13T11:39:50Z</time>
+			</trkpt>
+			<trkpt lat="48.074872" lon="11.488178">
+				<ele>569</ele>
+				<time>2025-07-13T11:39:54Z</time>
+			</trkpt>
+			<trkpt lat="48.075012" lon="11.487709">
+				<ele>569</ele>
+				<time>2025-07-13T11:40:01Z</time>
+			</trkpt>
+			<trkpt lat="48.075164" lon="11.487204">
+				<ele>569</ele>
+				<time>2025-07-13T11:40:10Z</time>
+			</trkpt>
+			<trkpt lat="48.075312" lon="11.486684">
+				<ele>569</ele>
+				<time>2025-07-13T11:40:18Z</time>
+			</trkpt>
+			<trkpt lat="48.075376" lon="11.486691">
+				<ele>569</ele>
+				<time>2025-07-13T11:40:19Z</time>
+			</trkpt>
+			<trkpt lat="48.075444" lon="11.486706">
+				<ele>569</ele>
+				<time>2025-07-13T11:40:21Z</time>
+			</trkpt>
+			<trkpt lat="48.076072" lon="11.487106">
+				<ele>568</ele>
+				<time>2025-07-13T11:40:36Z</time>
+			</trkpt>
+			<trkpt lat="48.076136" lon="11.487147">
+				<ele>568</ele>
+				<time>2025-07-13T11:40:38Z</time>
+			</trkpt>
+			<trkpt lat="48.076295" lon="11.487290">
+				<ele>568</ele>
+				<time>2025-07-13T11:40:42Z</time>
+			</trkpt>
+			<trkpt lat="48.076418" lon="11.487467">
+				<ele>568</ele>
+				<time>2025-07-13T11:40:46Z</time>
+			</trkpt>
+			<trkpt lat="48.076664" lon="11.487807">
+				<ele>568</ele>
+				<time>2025-07-13T11:40:53Z</time>
+			</trkpt>
+			<trkpt lat="48.077046" lon="11.488370">
+				<ele>568</ele>
+				<time>2025-07-13T11:41:05Z</time>
+			</trkpt>
+			<trkpt lat="48.077184" lon="11.488573">
+				<ele>568</ele>
+				<time>2025-07-13T11:41:09Z</time>
+			</trkpt>
+			<trkpt lat="48.077471" lon="11.488995">
+				<ele>567</ele>
+				<time>2025-07-13T11:41:18Z</time>
+			</trkpt>
+			<trkpt lat="48.078101" lon="11.489874">
+				<ele>567</ele>
+				<time>2025-07-13T11:41:37Z</time>
+			</trkpt>
+			<trkpt lat="48.078424" lon="11.490323">
+				<ele>566</ele>
+				<time>2025-07-13T11:41:47Z</time>
+			</trkpt>
+			<trkpt lat="48.078575" lon="11.490535">
+				<ele>566</ele>
+				<time>2025-07-13T11:41:52Z</time>
+			</trkpt>
+			<trkpt lat="48.078604" lon="11.490575">
+				<ele>566</ele>
+				<time>2025-07-13T11:41:53Z</time>
+			</trkpt>
+			<trkpt lat="48.078687" lon="11.490690">
+				<ele>566</ele>
+				<time>2025-07-13T11:41:55Z</time>
+			</trkpt>
+			<trkpt lat="48.078747" lon="11.490774">
+				<ele>566</ele>
+				<time>2025-07-13T11:41:57Z</time>
+			</trkpt>
+			<trkpt lat="48.078786" lon="11.490708">
+				<ele>566</ele>
+				<time>2025-07-13T11:41:58Z</time>
+			</trkpt>
+			<trkpt lat="48.078811" lon="11.490742">
+				<ele>566</ele>
+				<time>2025-07-13T11:41:59Z</time>
+			</trkpt>
+			<trkpt lat="48.078823" lon="11.490758">
+				<ele>566</ele>
+				<time>2025-07-13T11:42:00Z</time>
+			</trkpt>
+			<trkpt lat="48.079096" lon="11.491139">
+				<ele>566</ele>
+				<time>2025-07-13T11:42:09Z</time>
+			</trkpt>
+			<trkpt lat="48.079336" lon="11.491413">
+				<ele>566</ele>
+				<time>2025-07-13T11:42:16Z</time>
+			</trkpt>
+			<trkpt lat="48.079423" lon="11.491246">
+				<ele>566</ele>
+				<time>2025-07-13T11:42:19Z</time>
+			</trkpt>
+			<trkpt lat="48.079603" lon="11.490855">
+				<ele>566</ele>
+				<time>2025-07-13T11:42:26Z</time>
+			</trkpt>
+			<trkpt lat="48.079753" lon="11.490531">
+				<ele>566</ele>
+				<time>2025-07-13T11:42:32Z</time>
+			</trkpt>
+			<trkpt lat="48.080024" lon="11.489943">
+				<ele>565</ele>
+				<time>2025-07-13T11:42:42Z</time>
+			</trkpt>
+			<trkpt lat="48.080548" lon="11.488810">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:03Z</time>
+			</trkpt>
+			<trkpt lat="48.080601" lon="11.488709">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:05Z</time>
+			</trkpt>
+			<trkpt lat="48.080702" lon="11.488617">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:07Z</time>
+			</trkpt>
+			<trkpt lat="48.080865" lon="11.488557">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:11Z</time>
+			</trkpt>
+			<trkpt lat="48.081043" lon="11.488510">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:15Z</time>
+			</trkpt>
+			<trkpt lat="48.081152" lon="11.488480">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:17Z</time>
+			</trkpt>
+			<trkpt lat="48.081243" lon="11.488472">
+				<ele>566</ele>
+				<time>2025-07-13T11:43:20Z</time>
+			</trkpt>
+			<trkpt lat="48.081323" lon="11.488497">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:21Z</time>
+			</trkpt>
+			<trkpt lat="48.081409" lon="11.488557">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:23Z</time>
+			</trkpt>
+			<trkpt lat="48.081495" lon="11.488634">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:26Z</time>
+			</trkpt>
+			<trkpt lat="48.081547" lon="11.488652">
+				<ele>565</ele>
+				<time>2025-07-13T11:43:27Z</time>
+			</trkpt>
+			<trkpt lat="48.081606" lon="11.488634">
+				<ele>568</ele>
+				<time>2025-07-13T11:43:28Z</time>
+			</trkpt>
+			<trkpt lat="48.081647" lon="11.488617">
+				<ele>568</ele>
+				<time>2025-07-13T11:43:29Z</time>
+			</trkpt>
+			<trkpt lat="48.081686" lon="11.488575">
+				<ele>568</ele>
+				<time>2025-07-13T11:43:30Z</time>
+			</trkpt>
+			<trkpt lat="48.081721" lon="11.488552">
+				<ele>569</ele>
+				<time>2025-07-13T11:43:31Z</time>
+			</trkpt>
+			<trkpt lat="48.081763" lon="11.488545">
+				<ele>569</ele>
+				<time>2025-07-13T11:43:32Z</time>
+			</trkpt>
+			<trkpt lat="48.081762" lon="11.488416">
+				<ele>570</ele>
+				<time>2025-07-13T11:43:34Z</time>
+			</trkpt>
+			<trkpt lat="48.081760" lon="11.487032">
+				<ele>566</ele>
+				<time>2025-07-13T11:43:55Z</time>
+			</trkpt>
+			<trkpt lat="48.081778" lon="11.486799">
+				<ele>567</ele>
+				<time>2025-07-13T11:43:58Z</time>
+			</trkpt>
+			<trkpt lat="48.081815" lon="11.486543">
+				<ele>566</ele>
+				<time>2025-07-13T11:44:02Z</time>
+			</trkpt>
+			<trkpt lat="48.081853" lon="11.486912">
+				<ele>566</ele>
+				<time>2025-07-13T11:44:08Z</time>
+			</trkpt>
+			<trkpt lat="48.081866" lon="11.487031">
+				<ele>565</ele>
+				<time>2025-07-13T11:44:10Z</time>
+			</trkpt>
+			<trkpt lat="48.081865" lon="11.487189">
+				<ele>565</ele>
+				<time>2025-07-13T11:44:12Z</time>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
