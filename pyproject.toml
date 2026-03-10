@@ -9,10 +9,12 @@ dynamic = ["version"]
 description = "Library adding features for observability of the RD apps"
 readme = "README.md"
 requires-python = ">=3.10"
+# "shape2code @ git+https://github.com/hgmuc/shape2code.git@v0.1.0"
+# "basic_helpers @ git+https://github.com/hgmuc/basic_helpers.git@v0.2.1"
 dependencies = ["dataclasses>=0.8", "shapely>=2.0.0", "sqlite3>=3.46.0", 
                 "numpy>1.26.0", "pandas>=2.2.2", "geopandas>=1.0.1", "requests>=2.32.3",
-                "shape2code @ git+https://github.com/hgmuc/shape2code.git@v0.1.0",
-                "basic_helpers @ git+https://github.com/hgmuc/basic_helpers.git@v0.2.1"]  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
+                "shape2code", "lvl2_env_api", 
+                "basic_helpers>=v0.2.2"]  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
 
 [project.optional-dependencies]
 dev = [
@@ -27,6 +29,29 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+markers = [
+    "unit: fast isolated unit tests",
+    "integration: integration tests using real data",
+    "slow: slow tests",
+    "localdata: tests requiring local non-repo data"
+]
+# import pytest
+# @pytest.mark.integration  or   @pytest.mark.unit
+# -- OR (two lines for adding to marks e.g. integration test with local data) --
+# @pytest.mark.integration
+# @pytest.mark.localdata
+#
+# And then run manually either:
+# - pytest -m "unit"
+# - pytest tests/unit
+# - pytest -m "not integration" (often preferred, because sometimes unit tests are not explicitly marked.)
+#
+# Local CI (pre-commit)
+# pre-commit-config.yaml has a new hook added, which will run "pytest" as 'pytest -m "not integration"'
+#
+# Remote CI config
+# Change step "Run test" from "pytest" to 'pytest -m "not localdata"' - will run unit and integration, but not with localdata
 
 [tool.ruff]
 line-length = 140
