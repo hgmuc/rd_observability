@@ -11,15 +11,16 @@ readme = "README.md"
 requires-python = ">=3.10"
 # "shape2code @ git+https://github.com/hgmuc/shape2code.git@v0.1.0"
 # "basic_helpers @ git+https://github.com/hgmuc/basic_helpers.git@v0.2.1"
-dependencies = ["dataclasses>=0.8", "shapely>=2.0.0", "sqlite3>=3.46.0", 
+dependencies = ["dataclasses>=0.8", "shapely>=2.0.0", "sqlite3>=3.46", 
                 "numpy>1.26.0", "pandas>=2.2.2", "geopandas>=1.0.1", "requests>=2.32.3",
                 "shape2code", "lvl2_env_api", 
-                "basic_helpers>=v0.2.2"]  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
+                "basic_helpers>=v0.4.0"]  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
 
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0",
     "pytest-cov",
+    "rd_test_utils @ git+https://github.com/hgmuc/rd_test_utils.git@v0.1.1",
     "ruff",
 ]  # use locally with venv pip install -e .[dev]  OR   pip install -e .[dev,typecheck]
 typecheck = ["mypy", "types-requests>=2.32.4"]
