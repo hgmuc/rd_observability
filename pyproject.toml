@@ -15,7 +15,7 @@ requires-python = ">=3.10"
 dependencies = ["shapely>=2.0.0", "numpy>1.26.0", "pandas>=2.2.2", "geopandas>=1.0.1", "requests>=2.32.3",
                 #"shape2code", "lvl2_env_api", "basic_helpers>=v0.4.0"
                 "shape2code @ git+https://github.com/hgmuc/shape2code.git@v0.1.1",
-                "lvl2_env_api @ git+https://github.com/hgmuc/shape2code.git@v0.1.3", 
+                "lvl2_env_api @ git+https://github.com/hgmuc/lvl2_env_api.git@v0.1.3", 
                 "basic_helpers @ git+https://github.com/hgmuc/basic_helpers.git@v0.4.0"
                 ]  # only Numpy, Pandas and custom packages; not Python standard libraries like gzip, zipfile, ...
 
