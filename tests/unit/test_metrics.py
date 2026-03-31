@@ -1,3 +1,4 @@
+import pytest
 import pandas as pd
 import geopandas as gp
 import numpy as np
@@ -201,6 +202,7 @@ def test_np_metrics1():
     assert m["dims"] == 3
     assert m["type"] == 'Numpy Array'
 
+@pytest.mark.filterwarnings("ignore:divide by zero encountered in divide")
 def test_np_metrics_inf():
     arr = np.ones((2,3)) / 0
     m = np_metrics(arr)
