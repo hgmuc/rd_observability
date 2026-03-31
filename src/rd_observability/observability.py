@@ -21,9 +21,9 @@ from pathlib import Path
 from typing import Any, Dict, List, Set, Hashable, Union, TypeAlias, cast
 
 from basic_helpers.config_obs import PIPELINE_VERSION, OBS_MODE
-from .observability_db import get_connection
+from rd_observability.observability_db import get_connection
 from rd_observability.obs_conf import REL_FILE_TYPES, DB_PATH
-from .obs_classes import Result
+from rd_observability.obs_classes import Result
 
 QualityMetrics = dict[str, int]
 DictTypeMetrics = dict[str, dict[str, int] | QualityMetrics | int]
